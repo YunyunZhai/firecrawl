@@ -1,0 +1,7 @@
+templateName: ECS单机版
+regionId: cn-hangzhou
+parameters:
+  PayType: "PostPaid"
+  EcsInstanceType: "$[iact3-auto]"
+  InstancePassword: "$[iact3-auto]"
+caseId: stc-354b6751f7fe4f4cb6f0

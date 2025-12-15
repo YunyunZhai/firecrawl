@@ -1,0 +1,17 @@
+HelmChartPath: ''
+ZoneId: ap-southeast-1a
+SystemDiskSize: 40
+VSwitchId: vsw-t4nwtn5ll1w8wj51jrsai
+RepoName: YunyunZhai/firecrawl
+DockerComposeEnvPath: .env
+RoleName: ''
+VpcId: vpc-t4nf0kmm67ufj66iwfxmt
+RuntimeType: Container
+ServiceType: managed
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RegionId: cn-hangzhou
+DockerComposeYamlPath: docker-compose.yaml
+Owner: YunyunZhai
+Branch: main
+Platform: github
