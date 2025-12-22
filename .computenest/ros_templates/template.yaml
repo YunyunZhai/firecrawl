@@ -118,14 +118,14 @@ Resources:
     Properties:
       SecurityGroupName:
         Ref: ALIYUN::StackName
-      VpcId: vpc-t4nf0kmm67ufj66iwfxmt
+      VpcId: vpc-t4nd2jonug8p1vuc6uxh8
       SecurityGroupIngress:
-        - PortRange: 3002/3002
+        - PortRange: 5432/5432
           Priority: 1
           SourceCidrIp: 0.0.0.0/0
           IpProtocol: tcp
           NicType: internet
-        - PortRange: 5432/5432
+        - PortRange: 3002/3002
           Priority: 1
           SourceCidrIp: 0.0.0.0/0
           IpProtocol: tcp
@@ -140,7 +140,7 @@ Resources:
         Ref: PayPeriodUnit
       Period:
         Ref: PayPeriod
-      VpcId: vpc-t4nf0kmm67ufj66iwfxmt
+      VpcId: vpc-t4nd2jonug8p1vuc6uxh8
       VSwitchId: vsw-t4nwtn5ll1w8wj51jrsai
       ZoneId: ap-southeast-1a
       SecurityGroupId:
